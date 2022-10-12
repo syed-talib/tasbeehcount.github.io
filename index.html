@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="masjid.jpg" type="image/x-icon">
+    <title>islamictasbeeh.com</title>
+</head>
+<body>
+    <div class="container">
+
+             <div class="box" id="box">
+
+                    <label for="">islamic tasbeeh</label>
+                    <input type="text" id="num" placeholder="set the target if you want" maxlength="7" minlength="1" oninput="now()" autocomplete="off">
+                    <button onclick="run()" id="btn1">start</button>
+                    <button onclick="run2()">reset</button>
+                    <p id="demo">0</p>
+                    <button id="plus" style= "width:100px; text-align:center;cursor:pointer;color: black; font-size: 30px; transition: all .5s ease-in-out;">+</button>
+                    <div id="show"></div>
+                    <audio src="tone.mp3" id="tone"></audio>
+                    <audio src="click.mp3" id="tone2"></audio>
+                    
+
+                  
+
+             </div>        
+
+    </div>
+    <script src="work.js"></script>
+</body>
+</html>
